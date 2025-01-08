@@ -1,0 +1,20 @@
+# Core requirements
+bleak==0.21.1          # BLE communication
+aiohttp==3.9.1         # Async HTTP operations
+python-dotenv==1.0.0   # Environment management
+
+# Development tools
+black==24.1.1          # Code formatting
+pylint==3.0.3          # Code linting
+pytest==7.4.4          # Testing
+pytest-asyncio==0.23.2 # Async testing support
+
+# Data handling
+pandas==2.2.0          # Data analysis (latest with Python 3.12 support)
+numpy==1.26.4          # Required by pandas
+
+# Database
+aiosqlite==0.19.0      # Async SQLite
+
+# Logging and monitoring
+structlog==24.1.0      # Structured logging
